@@ -1,0 +1,13 @@
+name: spacenet-gis
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - numpy
+  - gdal>=3.8,<4
+  - shapely>=2,<3
+  - pillow>=10
+  - pycocotools>=2.0.7
+# CPU data preparation and export only. Detectron2 is installed in Colab.
+# This is an environment specification, not a lockfile for the original GPU run.

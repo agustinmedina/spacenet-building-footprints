@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "images": {
+    "train": 146,
+    "val": 32
+  },
+  "masks_checked": 4859,
+  "minimum_distance_m": 788.9505718618819,
+  "checks": [
+    "RLE edge cases",
+    "all PNGs and masks",
+    "COCO boxes and IDs",
+    "spatial gap",
+    "ZIP integrity and membership",
+    "notebook syntax",
+    "one-to-one matching edge cases"
+  ],
+  "not_executed": [
+    "Detectron2 GPU training",
+    "COCO evaluator in Colab"
+  ]
+}

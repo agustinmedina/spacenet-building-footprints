@@ -1,0 +1,3241 @@
+{
+  "counts": {
+    "tp": 545,
+    "fp": 214,
+    "fn": 196
+  },
+  "false_positive_types": {
+    "overlap_below_iou_0.5": 82,
+    "little_or_no_gt_overlap": 129,
+    "duplicate_or_matching_conflict": 3
+  },
+  "false_negative_types": {
+    "overlap_below_iou_0.5": 23,
+    "recoverable_below_score_0.5": 79,
+    "little_or_no_prediction_overlap": 94
+  },
+  "ground_truth_by_size": {
+    "medium": {
+      "total": 452,
+      "tp": 429,
+      "fn": 23,
+      "recall": 0.9491150442477876
+    },
+    "small": {
+      "total": 246,
+      "fn": 160,
+      "tp": 86,
+      "recall": 0.34959349593495936
+    },
+    "large": {
+      "total": 43,
+      "tp": 30,
+      "fn": 13,
+      "recall": 0.6976744186046512
+    }
+  },
+  "matched_mask_iou": {
+    "median": 0.8408163265306122,
+    "fraction_at_least_0.75": 0.8055045871559633
+  },
+  "interpretation": "IoU-based error bins are diagnostic proxies, not verified semantic causes. Small/medium/large use mask areas <1024 / <9216 / >=9216 px. Low-score analysis only sees exported predictions (score >=0.05, max 100/image).",
+  "per_image": [
+    {
+      "image_id": 134,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5416.png",
+      "tp": 16,
+      "fp": 5,
+      "fn": 5,
+      "fp_cases": [
+        {
+          "prediction_index": 15,
+          "score": 0.8885322213172913,
+          "best_mask_iou": 0.21666441957664825,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 16,
+          "score": 0.799372673034668,
+          "best_mask_iou": 0.46458273587611126,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 17,
+          "score": 0.7385094165802002,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 18,
+          "score": 0.676816463470459,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 20,
+          "score": 0.5007179379463196,
+          "best_mask_iou": 0.3649184662847069,
+          "type": "overlap_below_iou_0.5"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 3882,
+          "size": "medium",
+          "area": 2269,
+          "best_iou_high_score": 0.46458273587611126,
+          "best_iou_low_score": 0.44380784486557956,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 3883,
+          "size": "medium",
+          "area": 1080,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6657848324514991,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 3885,
+          "size": "small",
+          "area": 1003,
+          "best_iou_high_score": 0.0004674535468037864,
+          "best_iou_low_score": 0.3767123287671233,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 3886,
+          "size": "small",
+          "area": 221,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8088888888888889,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 3888,
+          "size": "small",
+          "area": 154,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6260869565217392,
+          "type": "recoverable_below_score_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 138,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5500.png",
+      "tp": 14,
+      "fp": 6,
+      "fn": 3,
+      "fp_cases": [
+        {
+          "prediction_index": 0,
+          "score": 0.9849196672439575,
+          "best_mask_iou": 0.04369801293900185,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 3,
+          "score": 0.9820491671562195,
+          "best_mask_iou": 0.3880826955571017,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 13,
+          "score": 0.9093421101570129,
+          "best_mask_iou": 0.37238327063509624,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 15,
+          "score": 0.7766761183738708,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 16,
+          "score": 0.7717786431312561,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 19,
+          "score": 0.6379897594451904,
+          "best_mask_iou": 0.737372304199773,
+          "type": "duplicate_or_matching_conflict"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 3994,
+          "size": "medium",
+          "area": 2444,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.807089552238806,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4004,
+          "size": "small",
+          "area": 250,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.04821802935010482,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4007,
+          "size": "small",
+          "area": 746,
+          "best_iou_high_score": 0.24601704334938868,
+          "best_iou_low_score": 0.8665850673194615,
+          "type": "recoverable_below_score_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 139,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5510.png",
+      "tp": 9,
+      "fp": 6,
+      "fn": 11,
+      "fp_cases": [
+        {
+          "prediction_index": 9,
+          "score": 0.8853965997695923,
+          "best_mask_iou": 0.11974362305660213,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 10,
+          "score": 0.8244917988777161,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 11,
+          "score": 0.8055278658866882,
+          "best_mask_iou": 0.12481426448736999,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 12,
+          "score": 0.7846959233283997,
+          "best_mask_iou": 0.44966442953020136,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 13,
+          "score": 0.7748498320579529,
+          "best_mask_iou": 0.0022648401826484018,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 14,
+          "score": 0.6560133695602417,
+          "best_mask_iou": 0.09768969156796059,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4010,
+          "size": "medium",
+          "area": 8525,
+          "best_iou_high_score": 0.09768969156796059,
+          "best_iou_low_score": 0.56017520684141,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4011,
+          "size": "large",
+          "area": 23091,
+          "best_iou_high_score": 0.11974362305660213,
+          "best_iou_low_score": 0.2403917050691244,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4013,
+          "size": "small",
+          "area": 275,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0008232085296305479,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4017,
+          "size": "small",
+          "area": 285,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0027031897639214274,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4018,
+          "size": "small",
+          "area": 342,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5833333333333334,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4019,
+          "size": "small",
+          "area": 358,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5238095238095238,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4020,
+          "size": "small",
+          "area": 80,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0003178355399727853,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4023,
+          "size": "small",
+          "area": 648,
+          "best_iou_high_score": 0.34942820838627703,
+          "best_iou_low_score": 0.7760210803689065,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4024,
+          "size": "small",
+          "area": 684,
+          "best_iou_high_score": 0.44966442953020136,
+          "best_iou_low_score": 0.0,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4026,
+          "size": "small",
+          "area": 239,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8730769230769231,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4028,
+          "size": "small",
+          "area": 312,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.7911227154046997,
+          "type": "recoverable_below_score_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 140,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5513.png",
+      "tp": 40,
+      "fp": 6,
+      "fn": 15,
+      "fp_cases": [
+        {
+          "prediction_index": 26,
+          "score": 0.9569414258003235,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 34,
+          "score": 0.8508793115615845,
+          "best_mask_iou": 0.16129423170140572,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 39,
+          "score": 0.7542502284049988,
+          "best_mask_iou": 0.05698672911787666,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 40,
+          "score": 0.7319471836090088,
+          "best_mask_iou": 0.46218487394957986,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 41,
+          "score": 0.7224460244178772,
+          "best_mask_iou": 0.48514851485148514,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 44,
+          "score": 0.5745057463645935,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4029,
+          "size": "small",
+          "area": 406,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4030,
+          "size": "small",
+          "area": 3,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4031,
+          "size": "small",
+          "area": 44,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.11666666666666667,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4045,
+          "size": "small",
+          "area": 206,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4051,
+          "size": "medium",
+          "area": 2871,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8144016227180527,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4070,
+          "size": "small",
+          "area": 48,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4071,
+          "size": "small",
+          "area": 168,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.4975124378109453,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4072,
+          "size": "small",
+          "area": 130,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6585365853658537,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4073,
+          "size": "small",
+          "area": 99,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5130434782608696,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4074,
+          "size": "small",
+          "area": 121,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.4,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4075,
+          "size": "small",
+          "area": 168,
+          "best_iou_high_score": 0.46218487394957986,
+          "best_iou_low_score": 0.0,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4076,
+          "size": "small",
+          "area": 112,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5714285714285714,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4080,
+          "size": "small",
+          "area": 350,
+          "best_iou_high_score": 0.0006648936170212766,
+          "best_iou_low_score": 0.625866050808314,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4081,
+          "size": "small",
+          "area": 135,
+          "best_iou_high_score": 0.48514851485148514,
+          "best_iou_low_score": 0.04110840438489647,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4082,
+          "size": "small",
+          "area": 210,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        }
+      ]
+    },
+    {
+      "image_id": 141,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5521.png",
+      "tp": 37,
+      "fp": 10,
+      "fn": 16,
+      "fp_cases": [
+        {
+          "prediction_index": 30,
+          "score": 0.9430435299873352,
+          "best_mask_iou": 0.3543046357615894,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 35,
+          "score": 0.9177940487861633,
+          "best_mask_iou": 0.029706513958482464,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 36,
+          "score": 0.8744513392448425,
+          "best_mask_iou": 0.3037037037037037,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 37,
+          "score": 0.8528820276260376,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 39,
+          "score": 0.8290616869926453,
+          "best_mask_iou": 0.44295501936252607,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 42,
+          "score": 0.6568166613578796,
+          "best_mask_iou": 0.29245283018867924,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 43,
+          "score": 0.6506450772285461,
+          "best_mask_iou": 0.2426584234930448,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 44,
+          "score": 0.5970925092697144,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 45,
+          "score": 0.5669586062431335,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 46,
+          "score": 0.5200846195220947,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4086,
+          "size": "small",
+          "area": 7,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4101,
+          "size": "small",
+          "area": 122,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4102,
+          "size": "small",
+          "area": 86,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5514705882352942,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4105,
+          "size": "small",
+          "area": 117,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.17699115044247787,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4109,
+          "size": "small",
+          "area": 201,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.7056277056277056,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4110,
+          "size": "small",
+          "area": 199,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4111,
+          "size": "small",
+          "area": 214,
+          "best_iou_high_score": 0.3543046357615894,
+          "best_iou_low_score": 0.776824034334764,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4112,
+          "size": "small",
+          "area": 575,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8275340393343419,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4129,
+          "size": "small",
+          "area": 88,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.24680851063829787,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4130,
+          "size": "small",
+          "area": 74,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.31216931216931215,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4131,
+          "size": "small",
+          "area": 124,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.7083333333333334,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4132,
+          "size": "small",
+          "area": 107,
+          "best_iou_high_score": 0.029706513958482464,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4133,
+          "size": "small",
+          "area": 169,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4134,
+          "size": "small",
+          "area": 77,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.45774647887323944,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4135,
+          "size": "small",
+          "area": 151,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4136,
+          "size": "small",
+          "area": 99,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.014319809069212411,
+          "type": "little_or_no_prediction_overlap"
+        }
+      ]
+    },
+    {
+      "image_id": 142,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5533.png",
+      "tp": 0,
+      "fp": 3,
+      "fn": 0,
+      "fp_cases": [
+        {
+          "prediction_index": 0,
+          "score": 0.6568611264228821,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 1,
+          "score": 0.5873647928237915,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 2,
+          "score": 0.517329752445221,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": []
+    },
+    {
+      "image_id": 144,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5573.png",
+      "tp": 29,
+      "fp": 7,
+      "fn": 11,
+      "fp_cases": [
+        {
+          "prediction_index": 22,
+          "score": 0.8913965225219727,
+          "best_mask_iou": 0.059345535219079315,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 27,
+          "score": 0.7928231358528137,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 31,
+          "score": 0.6927489638328552,
+          "best_mask_iou": 0.2289698605488079,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 32,
+          "score": 0.6771515011787415,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 33,
+          "score": 0.5797997117042542,
+          "best_mask_iou": 0.455595026642984,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 34,
+          "score": 0.5704267621040344,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 35,
+          "score": 0.5528466105461121,
+          "best_mask_iou": 0.49746560463432293,
+          "type": "overlap_below_iou_0.5"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4156,
+          "size": "small",
+          "area": 480,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.18835192069392812,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4157,
+          "size": "small",
+          "area": 132,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6666666666666666,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4166,
+          "size": "medium",
+          "area": 4499,
+          "best_iou_high_score": 0.455595026642984,
+          "best_iou_low_score": 0.7768776001751697,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4167,
+          "size": "small",
+          "area": 138,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4173,
+          "size": "medium",
+          "area": 1250,
+          "best_iou_high_score": 0.49746560463432293,
+          "best_iou_low_score": 0.0,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4175,
+          "size": "small",
+          "area": 364,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4180,
+          "size": "small",
+          "area": 154,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4181,
+          "size": "small",
+          "area": 86,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5547445255474452,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4184,
+          "size": "small",
+          "area": 156,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.7151515151515152,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4186,
+          "size": "small",
+          "area": 80,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5517241379310345,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4187,
+          "size": "small",
+          "area": 520,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        }
+      ]
+    },
+    {
+      "image_id": 145,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5622.png",
+      "tp": 2,
+      "fp": 3,
+      "fn": 0,
+      "fp_cases": [
+        {
+          "prediction_index": 2,
+          "score": 0.6842518448829651,
+          "best_mask_iou": 0.02062297289027599,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 3,
+          "score": 0.5455588102340698,
+          "best_mask_iou": 0.3018787099932685,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 4,
+          "score": 0.5138261318206787,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": []
+    },
+    {
+      "image_id": 146,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5679.png",
+      "tp": 52,
+      "fp": 6,
+      "fn": 12,
+      "fp_cases": [
+        {
+          "prediction_index": 45,
+          "score": 0.9058915376663208,
+          "best_mask_iou": 0.4445438282647585,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 51,
+          "score": 0.7530397176742554,
+          "best_mask_iou": 0.37037037037037035,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 52,
+          "score": 0.7410773038864136,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 55,
+          "score": 0.6058046817779541,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 56,
+          "score": 0.5587112307548523,
+          "best_mask_iou": 0.053352053352053355,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 57,
+          "score": 0.5465704202651978,
+          "best_mask_iou": 0.2757852528402762,
+          "type": "overlap_below_iou_0.5"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4195,
+          "size": "medium",
+          "area": 1077,
+          "best_iou_high_score": 0.4445438282647585,
+          "best_iou_low_score": 0.33890436397400187,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4238,
+          "size": "small",
+          "area": 163,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8773006134969326,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4241,
+          "size": "small",
+          "area": 226,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4242,
+          "size": "small",
+          "area": 168,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.02769385699899295,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4243,
+          "size": "small",
+          "area": 27,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4244,
+          "size": "small",
+          "area": 60,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4246,
+          "size": "small",
+          "area": 180,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4248,
+          "size": "small",
+          "area": 198,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5132743362831859,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4249,
+          "size": "small",
+          "area": 91,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4251,
+          "size": "small",
+          "area": 110,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.03932584269662921,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4252,
+          "size": "small",
+          "area": 115,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.114321608040201,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4253,
+          "size": "small",
+          "area": 120,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        }
+      ]
+    },
+    {
+      "image_id": 147,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5682.png",
+      "tp": 45,
+      "fp": 7,
+      "fn": 8,
+      "fp_cases": [
+        {
+          "prediction_index": 42,
+          "score": 0.7218628525733948,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 44,
+          "score": 0.6725563406944275,
+          "best_mask_iou": 0.03414996288047513,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 45,
+          "score": 0.6434527039527893,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 46,
+          "score": 0.6433818340301514,
+          "best_mask_iou": 0.32425742574257427,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 48,
+          "score": 0.5640615224838257,
+          "best_mask_iou": 0.1473429951690821,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 49,
+          "score": 0.5082297921180725,
+          "best_mask_iou": 0.9101053936763794,
+          "type": "duplicate_or_matching_conflict"
+        },
+        {
+          "prediction_index": 50,
+          "score": 0.5052155256271362,
+          "best_mask_iou": 0.012317167051578136,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4273,
+          "size": "small",
+          "area": 336,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.9408284023668639,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4274,
+          "size": "small",
+          "area": 47,
+          "best_iou_high_score": 0.03414996288047513,
+          "best_iou_low_score": 0.010996724379971923,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4276,
+          "size": "small",
+          "area": 187,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4277,
+          "size": "small",
+          "area": 72,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4278,
+          "size": "small",
+          "area": 68,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4289,
+          "size": "small",
+          "area": 394,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6700404858299596,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4303,
+          "size": "small",
+          "area": 340,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4306,
+          "size": "small",
+          "area": 169,
+          "best_iou_high_score": 0.32425742574257427,
+          "best_iou_low_score": 0.0,
+          "type": "overlap_below_iou_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 149,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5728.png",
+      "tp": 9,
+      "fp": 5,
+      "fn": 1,
+      "fp_cases": [
+        {
+          "prediction_index": 0,
+          "score": 0.9855969548225403,
+          "best_mask_iou": 0.060830219852430395,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 9,
+          "score": 0.7286319136619568,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 10,
+          "score": 0.6288840770721436,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 11,
+          "score": 0.6101022362709045,
+          "best_mask_iou": 0.21806957537332108,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 13,
+          "score": 0.5034176111221313,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4374,
+          "size": "small",
+          "area": 912,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5960264900662252,
+          "type": "recoverable_below_score_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 150,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5740.png",
+      "tp": 5,
+      "fp": 6,
+      "fn": 7,
+      "fp_cases": [
+        {
+          "prediction_index": 2,
+          "score": 0.9537864327430725,
+          "best_mask_iou": 0.1375796178343949,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 5,
+          "score": 0.8067243695259094,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 6,
+          "score": 0.7476958632469177,
+          "best_mask_iou": 0.12224448897795591,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 7,
+          "score": 0.7175107598304749,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 9,
+          "score": 0.6436268091201782,
+          "best_mask_iou": 0.14938684503901895,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 10,
+          "score": 0.6244807839393616,
+          "best_mask_iou": 0.04327666151468315,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4376,
+          "size": "small",
+          "area": 88,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.3026315789473684,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4378,
+          "size": "small",
+          "area": 112,
+          "best_iou_high_score": 0.04327666151468315,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4379,
+          "size": "medium",
+          "area": 1447,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6703762586115527,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4382,
+          "size": "small",
+          "area": 192,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.00027622896311831806,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4384,
+          "size": "small",
+          "area": 135,
+          "best_iou_high_score": 0.14938684503901895,
+          "best_iou_low_score": 0.3094059405940594,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4385,
+          "size": "small",
+          "area": 343,
+          "best_iou_high_score": 0.12224448897795591,
+          "best_iou_low_score": 0.7755102040816326,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4386,
+          "size": "small",
+          "area": 250,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0064980635770540375,
+          "type": "little_or_no_prediction_overlap"
+        }
+      ]
+    },
+    {
+      "image_id": 151,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5745.png",
+      "tp": 36,
+      "fp": 4,
+      "fn": 21,
+      "fp_cases": [
+        {
+          "prediction_index": 31,
+          "score": 0.677184522151947,
+          "best_mask_iou": 0.0585761489936918,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 35,
+          "score": 0.6167292594909668,
+          "best_mask_iou": 0.3043785310734463,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 38,
+          "score": 0.5267240405082703,
+          "best_mask_iou": 0.09026904702036712,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 39,
+          "score": 0.5246222019195557,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4389,
+          "size": "small",
+          "area": 680,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8108484005563282,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4390,
+          "size": "medium",
+          "area": 1391,
+          "best_iou_high_score": 0.3043785310734463,
+          "best_iou_low_score": 0.8767217630853994,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4395,
+          "size": "small",
+          "area": 375,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4396,
+          "size": "small",
+          "area": 297,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.671875,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4397,
+          "size": "small",
+          "area": 288,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.26785714285714285,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4419,
+          "size": "medium",
+          "area": 1809,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8274378585086042,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4426,
+          "size": "small",
+          "area": 86,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6044776119402985,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4428,
+          "size": "small",
+          "area": 60,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4429,
+          "size": "small",
+          "area": 26,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4430,
+          "size": "small",
+          "area": 130,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4432,
+          "size": "small",
+          "area": 103,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6906474820143885,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4433,
+          "size": "small",
+          "area": 135,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4434,
+          "size": "small",
+          "area": 74,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6511627906976745,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4435,
+          "size": "small",
+          "area": 170,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6285714285714286,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4436,
+          "size": "small",
+          "area": 160,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4437,
+          "size": "small",
+          "area": 140,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5706521739130435,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4438,
+          "size": "small",
+          "area": 165,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.7301587301587301,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4439,
+          "size": "small",
+          "area": 40,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.3448275862068966,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4440,
+          "size": "small",
+          "area": 89,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4442,
+          "size": "small",
+          "area": 99,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.7719298245614035,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4443,
+          "size": "small",
+          "area": 253,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        }
+      ]
+    },
+    {
+      "image_id": 152,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5802.png",
+      "tp": 3,
+      "fp": 6,
+      "fn": 1,
+      "fp_cases": [
+        {
+          "prediction_index": 0,
+          "score": 0.9276905059814453,
+          "best_mask_iou": 0.21777699101119175,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 1,
+          "score": 0.8978132605552673,
+          "best_mask_iou": 0.016443421647882615,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 2,
+          "score": 0.8754547238349915,
+          "best_mask_iou": 0.07242186424342559,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 4,
+          "score": 0.7379665970802307,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 6,
+          "score": 0.6416182518005371,
+          "best_mask_iou": 0.03375228654039063,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 8,
+          "score": 0.5574103593826294,
+          "best_mask_iou": 0.015046910957691628,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4446,
+          "size": "small",
+          "area": 18,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        }
+      ]
+    },
+    {
+      "image_id": 153,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5803.png",
+      "tp": 4,
+      "fp": 14,
+      "fn": 1,
+      "fp_cases": [
+        {
+          "prediction_index": 1,
+          "score": 0.9781167507171631,
+          "best_mask_iou": 0.014149842235660012,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 2,
+          "score": 0.9692623615264893,
+          "best_mask_iou": 0.025176389087595914,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 4,
+          "score": 0.9499132633209229,
+          "best_mask_iou": 0.05179416336993304,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 5,
+          "score": 0.9381864070892334,
+          "best_mask_iou": 0.0072405925011107515,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 6,
+          "score": 0.9114585518836975,
+          "best_mask_iou": 0.04694524560782572,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 8,
+          "score": 0.8235478401184082,
+          "best_mask_iou": 0.1612866800162604,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 10,
+          "score": 0.7863696217536926,
+          "best_mask_iou": 0.01125059302824697,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 11,
+          "score": 0.7491706609725952,
+          "best_mask_iou": 0.000948845195153359,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 12,
+          "score": 0.7288467884063721,
+          "best_mask_iou": 0.005222413832054401,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 13,
+          "score": 0.7235686182975769,
+          "best_mask_iou": 0.02541173104003976,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 14,
+          "score": 0.6541520953178406,
+          "best_mask_iou": 0.059148449089936966,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 15,
+          "score": 0.5932618975639343,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 16,
+          "score": 0.5705879926681519,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 17,
+          "score": 0.5389130115509033,
+          "best_mask_iou": 0.0038744512135428827,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4448,
+          "size": "large",
+          "area": 265586,
+          "best_iou_high_score": 0.1612866800162604,
+          "best_iou_low_score": 0.03375177908474091,
+          "type": "overlap_below_iou_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 154,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5819.png",
+      "tp": 9,
+      "fp": 10,
+      "fn": 6,
+      "fp_cases": [
+        {
+          "prediction_index": 4,
+          "score": 0.9681808948516846,
+          "best_mask_iou": 0.4243930973968997,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 5,
+          "score": 0.9657512307167053,
+          "best_mask_iou": 0.4484572855359372,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 9,
+          "score": 0.8900096416473389,
+          "best_mask_iou": 0.08641106326598211,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 10,
+          "score": 0.8669574856758118,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 11,
+          "score": 0.8554397225379944,
+          "best_mask_iou": 0.4575901974132063,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 12,
+          "score": 0.8217311501502991,
+          "best_mask_iou": 0.054985519238725696,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 13,
+          "score": 0.7758830189704895,
+          "best_mask_iou": 0.17545638945233266,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 14,
+          "score": 0.7536969780921936,
+          "best_mask_iou": 0.21695052716950528,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 15,
+          "score": 0.6437934637069702,
+          "best_mask_iou": 0.17092391304347826,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 16,
+          "score": 0.6309987306594849,
+          "best_mask_iou": 0.36923076923076925,
+          "type": "overlap_below_iou_0.5"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4457,
+          "size": "medium",
+          "area": 3390,
+          "best_iou_high_score": 0.4243930973968997,
+          "best_iou_low_score": 0.7273684210526316,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4458,
+          "size": "medium",
+          "area": 1026,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6995391705069124,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4461,
+          "size": "small",
+          "area": 540,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8018518518518518,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4462,
+          "size": "small",
+          "area": 791,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5672316384180791,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4466,
+          "size": "large",
+          "area": 14690,
+          "best_iou_high_score": 0.4575901974132063,
+          "best_iou_low_score": 0.7675917758024021,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4467,
+          "size": "small",
+          "area": 52,
+          "best_iou_high_score": 0.36923076923076925,
+          "best_iou_low_score": 0.0013358680573395674,
+          "type": "overlap_below_iou_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 155,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5829.png",
+      "tp": 17,
+      "fp": 8,
+      "fn": 2,
+      "fp_cases": [
+        {
+          "prediction_index": 13,
+          "score": 0.8514074087142944,
+          "best_mask_iou": 0.03516224188790561,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 14,
+          "score": 0.8336102366447449,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 15,
+          "score": 0.7647998929023743,
+          "best_mask_iou": 0.15545001737518824,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 16,
+          "score": 0.6889030933380127,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 18,
+          "score": 0.6581299304962158,
+          "best_mask_iou": 0.038332368268674,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 20,
+          "score": 0.5944639444351196,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 21,
+          "score": 0.5925233960151672,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 22,
+          "score": 0.5922181010246277,
+          "best_mask_iou": 0.15208569271423178,
+          "type": "overlap_below_iou_0.5"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4482,
+          "size": "small",
+          "area": 205,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5201149425287356,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4485,
+          "size": "small",
+          "area": 352,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        }
+      ]
+    },
+    {
+      "image_id": 156,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5845.png",
+      "tp": 2,
+      "fp": 4,
+      "fn": 1,
+      "fp_cases": [
+        {
+          "prediction_index": 2,
+          "score": 0.8558438420295715,
+          "best_mask_iou": 0.09830885075916554,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 3,
+          "score": 0.7223085761070251,
+          "best_mask_iou": 0.23092292138077128,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 4,
+          "score": 0.571009635925293,
+          "best_mask_iou": 0.3057623935064064,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 5,
+          "score": 0.5232491493225098,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4487,
+          "size": "large",
+          "area": 40505,
+          "best_iou_high_score": 0.3057623935064064,
+          "best_iou_low_score": 0.25484531392174703,
+          "type": "overlap_below_iou_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 157,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5860.png",
+      "tp": 1,
+      "fp": 3,
+      "fn": 0,
+      "fp_cases": [
+        {
+          "prediction_index": 1,
+          "score": 0.8866188526153564,
+          "best_mask_iou": 0.3789152246619165,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 2,
+          "score": 0.6009799242019653,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 3,
+          "score": 0.5072044134140015,
+          "best_mask_iou": 0.0027778054341441073,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": []
+    },
+    {
+      "image_id": 158,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5919.png",
+      "tp": 6,
+      "fp": 0,
+      "fn": 1,
+      "fp_cases": [],
+      "fn_cases": [
+        {
+          "annotation_id": 4492,
+          "size": "medium",
+          "area": 1282,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8361955085865258,
+          "type": "recoverable_below_score_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 159,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5949.png",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "fp_cases": [],
+      "fn_cases": [
+        {
+          "annotation_id": 4498,
+          "size": "small",
+          "area": 506,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.42723880597014924,
+          "type": "little_or_no_prediction_overlap"
+        }
+      ]
+    },
+    {
+      "image_id": 160,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5959.png",
+      "tp": 0,
+      "fp": 16,
+      "fn": 5,
+      "fp_cases": [
+        {
+          "prediction_index": 0,
+          "score": 0.9451428651809692,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 1,
+          "score": 0.9403153657913208,
+          "best_mask_iou": 0.0718566427342313,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 2,
+          "score": 0.9386829733848572,
+          "best_mask_iou": 0.15743231127846513,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 3,
+          "score": 0.908250629901886,
+          "best_mask_iou": 0.04807867419413586,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 4,
+          "score": 0.8660778403282166,
+          "best_mask_iou": 0.23440094899169633,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 5,
+          "score": 0.8621306419372559,
+          "best_mask_iou": 0.048284507563647376,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 6,
+          "score": 0.8288671374320984,
+          "best_mask_iou": 0.11038805970149254,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 7,
+          "score": 0.8227853178977966,
+          "best_mask_iou": 0.022990628318175523,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 8,
+          "score": 0.8021242618560791,
+          "best_mask_iou": 0.009009410820213193,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 9,
+          "score": 0.7902723550796509,
+          "best_mask_iou": 0.01662147463884676,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 10,
+          "score": 0.7284855246543884,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 11,
+          "score": 0.6387048959732056,
+          "best_mask_iou": 0.06066062023591176,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 12,
+          "score": 0.6178575754165649,
+          "best_mask_iou": 0.05111027237843618,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 13,
+          "score": 0.5914322733879089,
+          "best_mask_iou": 0.2890508465705388,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 14,
+          "score": 0.5480823516845703,
+          "best_mask_iou": 0.03125637765114052,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 15,
+          "score": 0.507816731929779,
+          "best_mask_iou": 0.08052003475027053,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4499,
+          "size": "large",
+          "area": 16628,
+          "best_iou_high_score": 0.15743231127846513,
+          "best_iou_low_score": 0.19324970131421745,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4500,
+          "size": "large",
+          "area": 118858,
+          "best_iou_high_score": 0.06066062023591176,
+          "best_iou_low_score": 0.48908704946705933,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4501,
+          "size": "large",
+          "area": 63588,
+          "best_iou_high_score": 0.2890508465705388,
+          "best_iou_low_score": 0.21933355140585667,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4502,
+          "size": "medium",
+          "area": 3965,
+          "best_iou_high_score": 0.06250341474075288,
+          "best_iou_low_score": 0.22878201853608698,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4503,
+          "size": "medium",
+          "area": 6257,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8591160220994475,
+          "type": "recoverable_below_score_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 161,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5964.png",
+      "tp": 23,
+      "fp": 7,
+      "fn": 14,
+      "fp_cases": [
+        {
+          "prediction_index": 4,
+          "score": 0.9692732095718384,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 15,
+          "score": 0.8726251125335693,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 16,
+          "score": 0.8640164732933044,
+          "best_mask_iou": 0.45388149939540506,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 19,
+          "score": 0.8342793583869934,
+          "best_mask_iou": 0.46438281674823273,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 26,
+          "score": 0.6047684550285339,
+          "best_mask_iou": 0.4265938779489179,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 28,
+          "score": 0.5722498297691345,
+          "best_mask_iou": 0.3275897435897436,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 29,
+          "score": 0.5527186989784241,
+          "best_mask_iou": 0.051991637323943664,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4504,
+          "size": "large",
+          "area": 18033,
+          "best_iou_high_score": 0.051991637323943664,
+          "best_iou_low_score": 0.8089022392135445,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4505,
+          "size": "large",
+          "area": 14262,
+          "best_iou_high_score": 0.45388149939540506,
+          "best_iou_low_score": 0.020719090960483917,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4507,
+          "size": "small",
+          "area": 450,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.03123287671232877,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4515,
+          "size": "medium",
+          "area": 1442,
+          "best_iou_high_score": 0.46438281674823273,
+          "best_iou_low_score": 0.37468513853904284,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4516,
+          "size": "small",
+          "area": 868,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.09794091316025068,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4518,
+          "size": "medium",
+          "area": 1314,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.16486630069063218,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4519,
+          "size": "small",
+          "area": 685,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4527,
+          "size": "small",
+          "area": 451,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.006330067822155237,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4531,
+          "size": "small",
+          "area": 504,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6238361266294227,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4532,
+          "size": "small",
+          "area": 706,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.7837116154873164,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4533,
+          "size": "small",
+          "area": 892,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.195338512763596,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4534,
+          "size": "small",
+          "area": 891,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4535,
+          "size": "small",
+          "area": 628,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.37151248164464024,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4540,
+          "size": "large",
+          "area": 19834,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.7256167742581194,
+          "type": "recoverable_below_score_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 162,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5974.png",
+      "tp": 16,
+      "fp": 6,
+      "fn": 0,
+      "fp_cases": [
+        {
+          "prediction_index": 14,
+          "score": 0.8705871105194092,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 15,
+          "score": 0.8423594832420349,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 18,
+          "score": 0.7229111790657043,
+          "best_mask_iou": 0.4635754431474276,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 19,
+          "score": 0.7123103737831116,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 20,
+          "score": 0.5862195491790771,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 21,
+          "score": 0.5379297137260437,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": []
+    },
+    {
+      "image_id": 163,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img5989.png",
+      "tp": 12,
+      "fp": 2,
+      "fn": 1,
+      "fp_cases": [
+        {
+          "prediction_index": 11,
+          "score": 0.7448720932006836,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 12,
+          "score": 0.7244177460670471,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4569,
+          "size": "small",
+          "area": 116,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        }
+      ]
+    },
+    {
+      "image_id": 164,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img6009.png",
+      "tp": 32,
+      "fp": 13,
+      "fn": 13,
+      "fp_cases": [
+        {
+          "prediction_index": 23,
+          "score": 0.9713543057441711,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 30,
+          "score": 0.874591052532196,
+          "best_mask_iou": 0.010342598577892695,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 31,
+          "score": 0.8242000937461853,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 32,
+          "score": 0.78709477186203,
+          "best_mask_iou": 0.2154696132596685,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 35,
+          "score": 0.6960508823394775,
+          "best_mask_iou": 0.43029087261785354,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 36,
+          "score": 0.6502604484558105,
+          "best_mask_iou": 0.46039797112758485,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 38,
+          "score": 0.6468618512153625,
+          "best_mask_iou": 0.29777777777777775,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 39,
+          "score": 0.6269574165344238,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 40,
+          "score": 0.6027610301971436,
+          "best_mask_iou": 0.4498675747256905,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 41,
+          "score": 0.569659948348999,
+          "best_mask_iou": 0.4983164983164983,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 42,
+          "score": 0.5686518549919128,
+          "best_mask_iou": 0.21218274111675126,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 43,
+          "score": 0.5437566637992859,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 44,
+          "score": 0.5383480191230774,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4573,
+          "size": "small",
+          "area": 93,
+          "best_iou_high_score": 0.010342598577892695,
+          "best_iou_low_score": 0.006888068880688807,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4574,
+          "size": "small",
+          "area": 148,
+          "best_iou_high_score": 0.4983164983164983,
+          "best_iou_low_score": 0.061683599419448475,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4576,
+          "size": "small",
+          "area": 37,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.45569620253164556,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4593,
+          "size": "small",
+          "area": 96,
+          "best_iou_high_score": 0.2154696132596685,
+          "best_iou_low_score": 0.14096916299559473,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4594,
+          "size": "small",
+          "area": 490,
+          "best_iou_high_score": 0.43029087261785354,
+          "best_iou_low_score": 0.3130779392338177,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4596,
+          "size": "small",
+          "area": 220,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4608,
+          "size": "small",
+          "area": 87,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4609,
+          "size": "small",
+          "area": 85,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.609375,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4610,
+          "size": "small",
+          "area": 434,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.7422480620155039,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4611,
+          "size": "small",
+          "area": 308,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8108108108108109,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4612,
+          "size": "small",
+          "area": 265,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4613,
+          "size": "small",
+          "area": 59,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6987951807228916,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4614,
+          "size": "small",
+          "area": 78,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        }
+      ]
+    },
+    {
+      "image_id": 165,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img6031.png",
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "fp_cases": [
+        {
+          "prediction_index": 0,
+          "score": 0.8410968780517578,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": []
+    },
+    {
+      "image_id": 166,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img6077.png",
+      "tp": 32,
+      "fp": 5,
+      "fn": 5,
+      "fp_cases": [
+        {
+          "prediction_index": 27,
+          "score": 0.8315300941467285,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 28,
+          "score": 0.7375085949897766,
+          "best_mask_iou": 0.2861884094970641,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 31,
+          "score": 0.7085990905761719,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 32,
+          "score": 0.7073568105697632,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 35,
+          "score": 0.5967912077903748,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4617,
+          "size": "small",
+          "area": 102,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4633,
+          "size": "small",
+          "area": 459,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.738562091503268,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4634,
+          "size": "small",
+          "area": 133,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.5673758865248227,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4647,
+          "size": "small",
+          "area": 59,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4650,
+          "size": "small",
+          "area": 427,
+          "best_iou_high_score": 0.10232433876569597,
+          "best_iou_low_score": 0.0,
+          "type": "overlap_below_iou_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 167,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img6084.png",
+      "tp": 3,
+      "fp": 13,
+      "fn": 1,
+      "fp_cases": [
+        {
+          "prediction_index": 2,
+          "score": 0.9602033495903015,
+          "best_mask_iou": 0.0787382570272177,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 4,
+          "score": 0.8852300047874451,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 5,
+          "score": 0.8740718364715576,
+          "best_mask_iou": 0.018097948403176908,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 6,
+          "score": 0.85535728931427,
+          "best_mask_iou": 0.2867230326117254,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 7,
+          "score": 0.8501408100128174,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 8,
+          "score": 0.8034343123435974,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 9,
+          "score": 0.7890546917915344,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 10,
+          "score": 0.7707483768463135,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 11,
+          "score": 0.7461891770362854,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 12,
+          "score": 0.6865696907043457,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 13,
+          "score": 0.6859857439994812,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 14,
+          "score": 0.6285995841026306,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 15,
+          "score": 0.519127607345581,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4653,
+          "size": "large",
+          "area": 53723,
+          "best_iou_high_score": 0.2867230326117254,
+          "best_iou_low_score": 0.6373704773229149,
+          "type": "recoverable_below_score_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 168,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img6101.png",
+      "tp": 48,
+      "fp": 5,
+      "fn": 14,
+      "fp_cases": [
+        {
+          "prediction_index": 47,
+          "score": 0.8074623942375183,
+          "best_mask_iou": 0.46553002223869533,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 49,
+          "score": 0.6594011783599854,
+          "best_mask_iou": 0.31896551724137934,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 50,
+          "score": 0.5634115934371948,
+          "best_mask_iou": 0.42120253164556964,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 51,
+          "score": 0.5371557474136353,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 52,
+          "score": 0.5356004238128662,
+          "best_mask_iou": 0.1775,
+          "type": "overlap_below_iou_0.5"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4656,
+          "size": "small",
+          "area": 79,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.211340206185567,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4657,
+          "size": "small",
+          "area": 134,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.2147239263803681,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4658,
+          "size": "small",
+          "area": 218,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.792156862745098,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4659,
+          "size": "small",
+          "area": 128,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4660,
+          "size": "small",
+          "area": 229,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8444444444444444,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4661,
+          "size": "small",
+          "area": 180,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8333333333333334,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4662,
+          "size": "small",
+          "area": 67,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4683,
+          "size": "small",
+          "area": 109,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8253968253968254,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4693,
+          "size": "medium",
+          "area": 3976,
+          "best_iou_high_score": 0.46553002223869533,
+          "best_iou_low_score": 0.869287236561686,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4694,
+          "size": "small",
+          "area": 137,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4704,
+          "size": "small",
+          "area": 123,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.7346938775510204,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4705,
+          "size": "small",
+          "area": 159,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4707,
+          "size": "small",
+          "area": 91,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4717,
+          "size": "small",
+          "area": 693,
+          "best_iou_high_score": 0.31896551724137934,
+          "best_iou_low_score": 0.5671428571428572,
+          "type": "recoverable_below_score_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 170,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img6142.png",
+      "tp": 26,
+      "fp": 9,
+      "fn": 8,
+      "fp_cases": [
+        {
+          "prediction_index": 21,
+          "score": 0.9243628978729248,
+          "best_mask_iou": 0.28421052631578947,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 23,
+          "score": 0.9069267511367798,
+          "best_mask_iou": 0.2581044295966345,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 24,
+          "score": 0.8478350639343262,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 25,
+          "score": 0.7353042364120483,
+          "best_mask_iou": 0.296370714554816,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 26,
+          "score": 0.728570282459259,
+          "best_mask_iou": 0.041604197901049474,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 27,
+          "score": 0.6800950169563293,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 28,
+          "score": 0.6725737452507019,
+          "best_mask_iou": 0.25044404973357015,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 30,
+          "score": 0.6036118268966675,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 34,
+          "score": 0.5051904916763306,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4763,
+          "size": "small",
+          "area": 270,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.14285714285714285,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4764,
+          "size": "small",
+          "area": 39,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4770,
+          "size": "small",
+          "area": 684,
+          "best_iou_high_score": 0.059977922237213294,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4782,
+          "size": "small",
+          "area": 224,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.49049429657794674,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4786,
+          "size": "small",
+          "area": 10,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4787,
+          "size": "small",
+          "area": 268,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8934707903780069,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4788,
+          "size": "small",
+          "area": 81,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.7386363636363636,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4790,
+          "size": "small",
+          "area": 61,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8169014084507042,
+          "type": "recoverable_below_score_0.5"
+        }
+      ]
+    },
+    {
+      "image_id": 172,
+      "file_name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img6281.png",
+      "tp": 17,
+      "fp": 18,
+      "fn": 12,
+      "fp_cases": [
+        {
+          "prediction_index": 2,
+          "score": 0.979152262210846,
+          "best_mask_iou": 0.05519536208020308,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 9,
+          "score": 0.9395055174827576,
+          "best_mask_iou": 0.23746881378997506,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 10,
+          "score": 0.9351489543914795,
+          "best_mask_iou": 0.3878603234122334,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 11,
+          "score": 0.9196510314941406,
+          "best_mask_iou": 0.1830018207427256,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 12,
+          "score": 0.9165489673614502,
+          "best_mask_iou": 0.3652489417456158,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 14,
+          "score": 0.910914421081543,
+          "best_mask_iou": 0.08944126704795424,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 17,
+          "score": 0.8584820032119751,
+          "best_mask_iou": 0.22929145986650692,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 18,
+          "score": 0.8561096787452698,
+          "best_mask_iou": 0.43779677113010446,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 19,
+          "score": 0.8428127765655518,
+          "best_mask_iou": 0.28506012753027776,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 20,
+          "score": 0.8036031126976013,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 21,
+          "score": 0.7986056208610535,
+          "best_mask_iou": 0.15828376487053883,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 23,
+          "score": 0.7296804189682007,
+          "best_mask_iou": 0.3311490755909197,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 25,
+          "score": 0.6980705857276917,
+          "best_mask_iou": 0.5552238805970149,
+          "type": "duplicate_or_matching_conflict"
+        },
+        {
+          "prediction_index": 26,
+          "score": 0.6883592009544373,
+          "best_mask_iou": 0.003833318300712546,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 27,
+          "score": 0.6726683974266052,
+          "best_mask_iou": 0.2516840171463564,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 28,
+          "score": 0.6644888520240784,
+          "best_mask_iou": 0.19020185983216148,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "prediction_index": 30,
+          "score": 0.6077994108200073,
+          "best_mask_iou": 0.0,
+          "type": "little_or_no_gt_overlap"
+        },
+        {
+          "prediction_index": 32,
+          "score": 0.5592873692512512,
+          "best_mask_iou": 0.2932944606413994,
+          "type": "overlap_below_iou_0.5"
+        }
+      ],
+      "fn_cases": [
+        {
+          "annotation_id": 4819,
+          "size": "large",
+          "area": 22045,
+          "best_iou_high_score": 0.23746881378997506,
+          "best_iou_low_score": 0.4307552733046042,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4820,
+          "size": "medium",
+          "area": 2244,
+          "best_iou_high_score": 0.2516840171463564,
+          "best_iou_low_score": 0.6458087367178277,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4821,
+          "size": "small",
+          "area": 31,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4825,
+          "size": "small",
+          "area": 188,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.0,
+          "type": "little_or_no_prediction_overlap"
+        },
+        {
+          "annotation_id": 4830,
+          "size": "small",
+          "area": 48,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.6,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4836,
+          "size": "medium",
+          "area": 4231,
+          "best_iou_high_score": 0.3878603234122334,
+          "best_iou_low_score": 0.6883387320684868,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4838,
+          "size": "medium",
+          "area": 4811,
+          "best_iou_high_score": 0.3652489417456158,
+          "best_iou_low_score": 0.38972686506318793,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4840,
+          "size": "large",
+          "area": 22943,
+          "best_iou_high_score": 0.28506012753027776,
+          "best_iou_low_score": 0.5074959055977827,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4844,
+          "size": "small",
+          "area": 879,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.8553054662379421,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4845,
+          "size": "medium",
+          "area": 3997,
+          "best_iou_high_score": 0.43779677113010446,
+          "best_iou_low_score": 0.2013324666883328,
+          "type": "overlap_below_iou_0.5"
+        },
+        {
+          "annotation_id": 4846,
+          "size": "small",
+          "area": 156,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.700507614213198,
+          "type": "recoverable_below_score_0.5"
+        },
+        {
+          "annotation_id": 4847,
+          "size": "small",
+          "area": 192,
+          "best_iou_high_score": 0.0,
+          "best_iou_low_score": 0.03361933111539135,
+          "type": "little_or_no_prediction_overlap"
+        }
+      ]
+    }
+  ]
+}

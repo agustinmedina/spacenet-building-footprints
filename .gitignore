@@ -1,0 +1,20 @@
+# Full datasets, local environments and generated training runs
+/data/raw/
+/data/processed/
+/data/analysis_dependencies/
+/outputs/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+*.pth
+*.pt
+*.zip
+*.part
+*.aux.xml
+*~
+.DS_Store
+Thumbs.db
+.env
+.env.*

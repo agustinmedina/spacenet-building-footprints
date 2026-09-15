@@ -1,0 +1,12 @@
+{
+  "features": 759,
+  "images_with_predictions": 31,
+  "score_threshold": 0.5,
+  "crs": "EPSG:4326, longitude/latitude",
+  "round_trip_masks_checked": 759,
+  "max_relative_area_error": 1.8052414543891025e-09,
+  "geometry_validity": "all valid",
+  "simplification": "none",
+  "cross_tile_deduplication": "not performed",
+  "note": "These are validation-set predictions, not a separate test on new client imagery."
+}
